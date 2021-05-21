@@ -1,0 +1,25 @@
+# アクセスキー
+aws_access_key = "AKIAIOSFODNN7EXAMPLE"
+
+# シークレットキー
+aws_secret_key = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+# リージョン
+aws_region     = "ap-northeast-1"
+
+# リソース名のプレフィックス
+prefix = "prefix"
+
+# リソースの環境
+env = "dev"
+
+# ALB の ALIAS レコードを登録する Route53 上のゾーン名
+hosted_zone = "example.com"
+
+# ALB への HTTP(S) アクセスを許可するパブリック IP
+source_ip = "0.0.0.0/0"
+
+# Codecommit のリポジトリ名
+repo_name = "sample-app"
+
+# Codecommit のリポジトリの説明
+repo_description = "sample-app for ECS"

@@ -16,8 +16,6 @@ locals {
     task-01 = {
       name = "${var.prefix}-${var.env}-taskdef"
 
-      revision = 1
-
       container_name = "${var.prefix}-${var.env}-${var.repo_name}"
 
       cwlog_name   = "/ecs/${var.prefix}-${var.env}"
